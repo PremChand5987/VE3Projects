@@ -18,6 +18,9 @@ public class contact_test extends Base_tests {
 		Basepage.log.info("Navigate to google chrome and Ve3 Url");
 		Homepage.HomePageURlOpened();
 
+		Basepage.log.info("Contact From Is Displayed ptrefdv ds");
+		Contact_Page.ContactFromIsDisplayed();
+		
 		Basepage.log.info("Home page is opened Sucessfully ");
 		Homepage.HomepageDisplayedSucessfully();
 
