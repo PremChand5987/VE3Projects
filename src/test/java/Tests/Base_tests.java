@@ -59,6 +59,12 @@ public class Base_tests {
 		Basepage.log.info("Homepage started");
 	}
 	
+	public static void beforeMethodtopush(Method m) throws Exception
+	{
+		Basepage.ets = Basepage.et.createNode(m.getName());
+		Basepage.log.info("Homepage started");
+	}
+	
 	
 	@BeforeClass
 	public  void beforeclass() {
